@@ -1,0 +1,9 @@
+@import url(./blocks/page/page.css);
+@import url(./blocks/page/__block/page__block.css);
+/* общий для кнопок */
+@import url(./blocks/button/button.css);
+@import url(./blocks/button/_style/button_style_one.css);
+@import url(./blocks/button/_style/button_style_two.css);
+@import url(./blocks/button/_style/button_style_three.css);
+@import url(./blocks/button/_style/button_style_four.css);
+@import url(./blocks/button/_style/button_style_five.css);

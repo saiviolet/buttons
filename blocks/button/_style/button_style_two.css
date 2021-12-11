@@ -1,0 +1,9 @@
+.button_style_two::after {
+  background-color: #8A2BE2;
+  transition: all 0.75s ease 0s;
+  transform: translateY(-50%) translateX(-50%) rotate(90deg);
+}
+
+.button_style_two:hover::after {
+  height: 550%;
+}

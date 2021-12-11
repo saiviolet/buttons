@@ -1,0 +1,31 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 230px;
+  height: 45px;
+  background-color: transparent;
+  border: 2px solid #8A2BE2;
+  /* шрифт */
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.button::after {
+  position: absolute;
+  content: '';
+  height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+}
+
+
+.button:active {
+  height: 50px;
+  width: 240px;
+}
