@@ -1,0 +1,11 @@
+.button_style_seven::after {
+  border: 2px solid #8A2BE2;
+  visibility: hidden;
+  transition: transform 1s ease 0s, height 0.75s ease 0s, visibility 0.75s ease 0s;
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+
+.button_style_seven:hover::after {
+  height: 550%;
+  visibility: visible;
+}

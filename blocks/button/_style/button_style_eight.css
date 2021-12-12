@@ -1,0 +1,21 @@
+
+.button_style_eight::after {
+  background-image: linear-gradient( transparent 50%, #8A2BE2 50%);
+  background-size: 10px 10px;
+  visibility: hidden;
+  transition: transform 1s ease 0s, height 0.75s ease 0s, visibility 0.75s ease 0s;
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.button_style_eight:hover::after {
+  height: 600%;
+  visibility: visible;
+}
+
+
+
+
+
+
+
+
